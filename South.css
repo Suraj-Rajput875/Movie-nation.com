@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+min-height: 100vh; 
+
+
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+ .Search-box{
+    
+    float: right;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ .Searchtext{
+    line-height: 45px;
+    width: 0rem;
+    border-radius: 51px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+.Searchtext:focus{
+    outline: none;
+}
+.Searchbtn{
+    font-size: 10px;
+    margin: 021px;
+    
+    width: 2rem;
+    height: 2rem;
+    
+    color: royalblue;
+    position: absolute;
+    right: 1rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+.Search-box:hover > .Searchtext{
+    width: 21rem;
+    padding: 7px;
+box-shadow: 0 2rem 2rem -1.5rem rgba(0,0,0, 0.5);
+}
+.Search-box:hover > .Searchbtn{
+    background: #fff;
+    color: royalblue;
+}
+
+body{
+    background-image: url(file:///F:/Photo/PCzhqd.webp);
+}
+   .h2{
+    background-color: transparent;
+	border-radius: 51px;
+	box-shadow: 0 0 10px rgba(0,0,0, .2);
+	backdrop-filter: blur(20px);
+	border: 2px solid rgba(255, 255,255, .2);
+    font-size: 51px;
+   }
+   .hi{
+	background-color: transparent;
+	border-radius: 51px;
+	box-shadow: 0 0 10px rgba(0,0,0, .2);
+	backdrop-filter: blur(20px);
+	border: 2px solid rgba(255, 255,255, .2);
+}
+
+.hi ul{
+   overflow: auto;
+}
+.hi li{
+	float: left;
+	list-style: none;
+	margin: 21px;
+}
+
+.hi li a{
+padding: 3px;
+text-decoration: none;
+color: black;
+
+}
+
+
+.hi li a:hover{
+	color: blueviolet;
+}
+
+label.logo{
+	
+	font-size: 31px;
+	margin: 021px;
+	line-height: 5px;
+}
+.hi label{
+	float: left;
+	margin: 21px;
+	padding: 3px;
+}
+.h2{
+	float: right;
+    align-self: flex-start;
+	
+}
+
+.hed{
+	float: right;
+  font-size: 21px;
+  
+}
+.li .hed{
+	box-sizing: border-box;
+  border-radius: 51px;
+  padding: 21px;
+}
+
+h1{
+  color: violet;
+}
+
+
+.v{
+    background-color: black;
+    border-radius: 51px;
+}
+.v:hover{
+    background-color: violet;
+}
